@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app__body {
+    flex: 1 auto;
+}
+
+.app__footer {
+    height: 60px;
+}

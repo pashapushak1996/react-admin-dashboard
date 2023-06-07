@@ -1,0 +1,54 @@
+.custom-aside-menu {
+  position: relative;
+  background-color: #F2F2F2;
+  height: 100%;
+
+  .nav-link {
+    color: #808080;
+    padding-block: 10px;
+  }
+}
+
+.custom-aside-menu-brand {
+  background-color: #F2F2F2;
+
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.aside-menu-icon {
+  margin-right: 10px;
+}
+
+.nav-item {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-inline: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.nav-item:hover {
+  background-color: #B4CD93 !important;
+
+  .nav-link {
+    color: #4C4C4C;
+  }
+}
+
+.nav-item--logout {
+  padding-block: 10px;
+
+  cursor: pointer;
+}
+
+.sidebar-nav--top {
+  margin-bottom: 50px;
+}
+
+.sidebar-nav--bottom {
+  flex-grow: 0;
+  flex-basis: content;
+}
